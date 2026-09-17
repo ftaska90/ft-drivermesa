@@ -1,0 +1,11 @@
+FT-DriverMesa
+
+Created by ft_aska.90
+Copyright (c) 2026 ft_aska.90
+
+This repository contains experimental graphics-driver work for a specific
+Intel HD Graphics 3000 / Sandy Bridge GT2 Mesa Crocus target.
+
+Original ft_aska.90-authored material is licensed under the MIT License unless
+otherwise stated. Upstream Mesa-derived material retains its original license
+and copyright notices.
