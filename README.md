@@ -6,6 +6,28 @@ Experimental Mesa/Crocus graphics-driver work for a **specific Intel GPU target*
 >
 > **WARNING:** This project is still under active development and is **not recommended for normal/daily use**.
 
+## Development / Tested Environment
+
+Project ini dibuat dan diuji terutama pada lingkungan berikut:
+
+- Laptop: **Toshiba Satellite L735 (PSK0AL-010004)**
+- CPU: **Intel Core i3-2350M @ 2.30 GHz**
+- GPU: **Intel HD Graphics 3000 / Sandy Bridge GT2**
+- GPU PCI ID: **8086:0116**
+- RAM: **3.76 GiB**
+- OS: **CachyOS x86_64**
+- Kernel pengembangan: **Linux 7.1.8-1-cachyos**
+- Desktop Environment: **Xfce 4.20**
+- Window Manager: **Xfwm4**
+- Display Server: **X11**
+- Graphics stack yang dipakai saat pengembangan: **Mesa 26.1.6 / Crocus / i915**
+
+### Compatibility warning
+
+Project ini sangat bergantung pada hardware dan graphics stack di atas. **Jangan langsung mencoba patch/build ini pada perangkat yang berbeda** hanya karena sama-sama memakai GPU Intel.
+
+Project boleh dicoba jika GPU, PCI ID, generasi hardware, Mesa driver, kernel graphics driver, dan environment kamu cocok atau benar-benar kompatibel. Jika tidak cocok, gunakan hanya sebagai referensi pengembangan.
+
 ## Target hardware
 
 This repository is intended for the following graphics hardware/configuration:
